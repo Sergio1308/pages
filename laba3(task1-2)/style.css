@@ -1,0 +1,48 @@
+.container2 {
+  width: 300px;
+  height: 100%;
+}
+
+.block1 {
+  width: 150px;
+  height: 200px;
+  padding: 150px;
+
+  background-image: linear-gradient(to top, yellow, blue);
+  background-repeat: no-repeat;
+  background-position: left top, bottom right;
+  background-attachment: scroll, fixed;
+
+  border-width: 3px;
+  border-color: red;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.block2 {
+  width: 150px;
+  height: 400px;
+  padding: 150px;
+
+  background-image: url(https://miro.medium.com/max/11730/0*ihTZPO4iffJ8n69_);
+  background-repeat: no-repeat, repeat-x;
+  background-position: left top, bottom right;
+  background-attachment: scroll, fixed;
+
+  border-width: 4px 3px 8px 1px;
+  border-color: yellow green black red;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.block3 {
+  width: 150px;
+  height: 900px;
+  padding: 150px;
+
+  background-image: url('https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/advice/maps-satellite-images/satellite-image-of-globe.jpg'),
+  url('https://apollosat.com/wp-content/uploads/2016/06/IridiumCommunications-FeatureImage.jpg');
+  background-repeat: no-repeat, repeat-x;
+  background-position: left top, bottom right;
+  background-attachment: scroll, fixed;
+}
